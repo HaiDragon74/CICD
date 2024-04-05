@@ -34,5 +34,5 @@ jobs:
       - name: tai len html test
         uses: actions/upload-artifact@v2
         with:
-          name: lint-results-debug.html
-          path: app/build/reports/lint-results-debug.html
+          name: index.html
+          path: app/build/reports/index.html
