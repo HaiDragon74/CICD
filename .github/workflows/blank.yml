@@ -34,5 +34,5 @@ jobs:
       - name: tai len html testgit add .
         uses: actions/upload-artifact@v2
         with:
-          name: lint-results-debug.html
+          name: lint.html
           path: build/reports/lint-results-debug.html
