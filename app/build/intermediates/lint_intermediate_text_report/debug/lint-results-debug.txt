@@ -1,0 +1,33 @@
+D:\TU HOC KOTLIN\DEVERLOP\Github (cicd)\CICDcopy\app\build.gradle.kts:40: Warning: A newer version of androidx.core:core-ktx than 1.9.0 is available: 1.12.0 [GradleDependency]
+    implementation("androidx.core:core-ktx:1.9.0")
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+D:\TU HOC KOTLIN\DEVERLOP\Github (cicd)\CICDcopy\app\src\main\res\values\colors.xml:3: Warning: The resource R.color.black appears to be unused [UnusedResources]
+    <color name="black">#FF000000</color>
+           ~~~~~~~~~~~~
+D:\TU HOC KOTLIN\DEVERLOP\Github (cicd)\CICDcopy\app\src\main\res\values\colors.xml:4: Warning: The resource R.color.white appears to be unused [UnusedResources]
+    <color name="white">#FFFFFFFF</color>
+           ~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+0 errors, 3 warnings
