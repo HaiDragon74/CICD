@@ -31,8 +31,8 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: tai len html test
+      - name: tai len html testgit add .
         uses: actions/upload-artifact@v2
         with:
           name: lint-results-debug.html
-          path: app/src/main/java/com/example/ci/lint-results-debug.html
+          path: build/reports/lint-results-debug.html
